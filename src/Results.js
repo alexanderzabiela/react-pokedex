@@ -8,14 +8,7 @@ const Results = ({ pokemons }) => {
         <h1>No Pokemon Selected</h1>
       ) : (
         pokemons.map(pokemon => (
-          <PokemonCard
-            key={pokemon.name}
-            id={pokemon.name}
-            name={pokemon.name}
-            url={pokemon.url}
-            height={pokemon.height}
-            weight={pokemon.weight}
-          />
+          <PokemonCard key={pokemon.name} url={pokemon.url} />
         ))
       )}
     </div>

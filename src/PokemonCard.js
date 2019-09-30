@@ -60,8 +60,7 @@ class PokemonCard extends Component {
           <img src={hero} alt={name} />
         </div>
         <div className="info">
-          <h1>{this.props.name}</h1>
-          <h2>{this.props.height}</h2>
+          <h1>{this.state.pokemonData.name}</h1>
           <h2>Weight: {this.state.pokemonData.weight}</h2>
           <h2>Height: {this.state.pokemonData.height}</h2>
           <h2>Abilities: {this.abilities}</h2>
