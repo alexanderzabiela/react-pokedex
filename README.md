@@ -1,2 +1,1 @@
-# adopt-me
 # react-pokedex
