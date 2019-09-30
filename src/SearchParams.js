@@ -43,8 +43,8 @@ class SearchParams extends Component {
     return (
       <div className="search-params">
         <select
-          id={this.state.pokemons.name}
-          value={this.state.name}
+          id={pokemons.name}
+          value={pokemons.name}
           onChange={e => this.findPokemons(e.target.value)}
           onBlur={e => this.findPokemons(e.target.value)}
         >
